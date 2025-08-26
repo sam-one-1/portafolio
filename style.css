@@ -667,6 +667,10 @@
     font-weight: 500;
     border: 1px solid var(--primary-color);
   }
+
+.hero {
+  padding-top: 100px; /* ajusta según la altura de tu navbar */
+}
   
  /* Contact Section Simplified */
 .contact {
@@ -972,4 +976,10 @@
 }
 html {
   overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .scroll-indicator {
+    display: none;
+  }
 }
