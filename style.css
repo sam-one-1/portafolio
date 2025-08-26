@@ -936,4 +936,40 @@
       grid-template-columns: 1fr;
     }
   }
-  
+
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-content {
+    gap: 3rem;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .about-description,
+  .hero-description,
+  .project-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+html {
+  overflow-x: hidden;
+}
